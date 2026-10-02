@@ -1,3 +1,4 @@
+### 2023 Global Country Information Table
 | Country | Population | Land Area (Km2) | GDP | Co2-Emissions | Life expectancy | Birth Rate |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Afghanistan | 38,041,754 | 652,230 | $19,101,353,833 | 8,672 | 64.5 | 32.49 |
