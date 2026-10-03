@@ -1,0 +1,179 @@
+/* ================================
+   Global
+================================ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ================================
+   Page header
+================================ */
+
+.page-header {
+    min-height: 105px;
+    padding: 22px 32px;
+
+    display: flex;
+    align-items: center;
+
+    background: #16324f;
+    color: white;
+
+    border-bottom: 4px solid #2d6a8a;
+}
+
+.page-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+}
+
+
+/* ================================
+   Main two-panel layout
+================================ */
+
+.dashboard {
+    display: grid;
+
+    /* More space for the wide table */
+    grid-template-columns: 40% 60%;
+
+    height: calc(100vh - 155px);
+}
+
+
+/* ================================
+   Panels
+================================ */
+
+.text-panel,
+.table-panel {
+    min-width: 0;
+    overflow-y: auto;
+}
+
+.text-panel {
+    padding: 28px 32px;
+    border-right: 1px solid #d8dee4;
+}
+
+.table-panel {
+    padding: 28px 24px;
+}
+
+
+/* ================================
+   Panel heading
+================================ */
+
+.panel-heading {
+    margin-bottom: 24px;
+}
+
+.panel-heading h2 {
+    font-size: 1.4rem;
+    color: #1d2d3d;
+}
+
+
+/* ================================
+   Article
+================================ */
+
+.article-content p {
+    margin-bottom: 25px;
+
+    font-size: 1rem;
+    line-height: 1.8;
+
+    color: #293845;
+}
+
+
+/* ================================
+   Table container
+================================ */
+
+.table-container {
+    width: 100%;
+
+    overflow-x: auto;
+
+    border: 1px solid #d8dee4;
+    border-radius: 8px;
+
+    background: white;
+}
+
+
+/* ================================
+   Table
+================================ */
+
+table {
+    width: 100%;
+    min-width: 1050px;
+
+    border-collapse: collapse;
+
+    font-size: 0.87rem;
+}
+
+th,
+td {
+    padding: 13px 14px;
+
+    text-align: right;
+    white-space: nowrap;
+
+    border-bottom: 1px solid #e5e9ed;
+}
+
+th {
+    top: 0;
+    z-index: 5;
+
+    background: #eaf0f5;
+    color: #243746;
+
+    font-weight: 700;
+}
+
+
+/* First column: country */
+
+th:first-child,
+td:first-child {
+    left: 0;
+
+    text-align: left;
+}
+
+td:first-child {
+    z-index: 2;
+
+    background: white;
+
+    font-weight: 600;
+}
+
+
+/* Row feedback */
+
+tbody tr:hover td {
+    background: #f3f7fa;
+}
+
+tbody tr:hover td:first-child {
+    background: #eaf2f7;
+}
+
