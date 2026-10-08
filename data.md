@@ -1,27 +1,27 @@
 ### 2023 Global Country Information Table
-| Country | Population | Land Area (Km2) | GDP | Co2-Emissions | Life expectancy | Birth Rate |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Afghanistan | 38,041,754 | 652,230 | $19,101,353,833 | 8,672 | 64.5 | 32.49 |
-| Albania | 2,854,191 | 28,748 | $15,278,077,447 | 4,536 | 78.5 | 11.78 |
-| Algeria | 43,053,054 | 2,381,741 | $169,988,236,398 | 150,006 | 76.7 | 24.28 |
-| Angola | 31,825,295 | 1,246,700 | $94,635,415,870 | 34,693 | 60.8 | 40.73 |
-| Antigua and Barbuda | 97,118 | 443 | $1,727,759,259 | 557 | 76.9 | 15.33 |
-| Argentina | 44,938,712 | 2,780,400 | $449,663,446,954 | 201,348 | 76.5 | 17.02 |
-| Australia | 25,766,605 | 7,741,220 | $1,392,680,589,329 | 375,908 | 82.7 | 12.6 |
-| Brazil | 212,559,417 | 8,515,770 | $1,839,758,040,766 | 462,299 | 75.7 | 13.92 |
-| Canada | 36,991,981 | 9,984,670 | $1,736,425,629,520 | 544,894 | 81.9 | 10.1 |
-| China | 1,397,715,000 | 9,596,960 | $19,910,000,000,000 | 9,893,038 | 77.0 | 10.9 |
-| Egypt | 100,388,073 | 1,001,450 | $303,175,127,598 | 238,560 | 71.8 | 26.38 |
-| France | 67,059,887 | 643,801 | $2,715,518,274,227 | 303,276 | 82.5 | 11.3 |
-| Germany | 83,132,799 | 357,022 | $3,845,630,030,824 | 727,973 | 80.9 | 9.5 |
-| India | 1,366,417,754 | 3,287,263 | $2,611,000,000,000 | 2,407,672 | 69.4 | 17.86 |
-| Italy | 60,297,396 | 301,340 | $2,001,244,392,042 | 320,411 | 82.9 | 7.3 |
-| Japan | 126,226,568 | 377,944 | $5,081,769,542,380 | 1,135,886 | 84.2 | 7.4 |
-| Mexico | 126,014,024 | 1,964,375 | $1,258,286,717,125 | 486,406 | 75.0 | 17.6 |
-| Nigeria | 200,963,599 | 923,768 | $448,120,428,859 | 120,369 | 54.3 | 37.91 |
-| South Africa | 58,558,270 | 1,219,090 | $351,431,649,241 | 476,644 | 63.9 | 20.51 |
-| United States | 328,239,523 | 9,833,517 | $21,427,700,000,000 | 5,006,302 | 78.5 | 11.6 |
 
+| Country             |    Population | Land Area (Km2) |                 GDP | Co2-Emissions | Life expectancy | Birth Rate |
+| :------------------ | ------------: | --------------: | ------------------: | ------------: | --------------: | ---------: |
+| Afghanistan         |    38,041,754 |         652,230 |     $19,101,353,833 |         8,672 |            64.5 |      32.49 |
+| Albania             |     2,854,191 |          28,748 |     $15,278,077,447 |         4,536 |            78.5 |      11.78 |
+| Algeria             |    43,053,054 |       2,381,741 |    $169,988,236,398 |       150,006 |            76.7 |      24.28 |
+| Angola              |    31,825,295 |       1,246,700 |     $94,635,415,870 |        34,693 |            60.8 |      40.73 |
+| Antigua and Barbuda |        97,118 |             443 |      $1,727,759,259 |           557 |            76.9 |      15.33 |
+| Argentina           |    44,938,712 |       2,780,400 |    $449,663,446,954 |       201,348 |            76.5 |      17.02 |
+| Australia           |    25,766,605 |       7,741,220 |  $1,392,680,589,329 |       375,908 |            82.7 |       12.6 |
+| Brazil              |   212,559,417 |       8,515,770 |  $1,839,758,040,766 |       462,299 |            75.7 |      13.92 |
+| Canada              |    36,991,981 |       9,984,670 |  $1,736,425,629,520 |       544,894 |            81.9 |       10.1 |
+| China               | 1,397,715,000 |       9,596,960 | $19,910,000,000,000 |     9,893,038 |            77.0 |       10.9 |
+| Egypt               |   100,388,073 |       1,001,450 |    $303,175,127,598 |       238,560 |            71.8 |      26.38 |
+| France              |    67,059,887 |         643,801 |  $2,715,518,274,227 |       303,276 |            82.5 |       11.3 |
+| Germany             |    83,132,799 |         357,022 |  $3,845,630,030,824 |       727,973 |            80.9 |        9.5 |
+| India               | 1,366,417,754 |       3,287,263 |  $2,611,000,000,000 |     2,407,672 |            69.4 |      17.86 |
+| Italy               |    60,297,396 |         301,340 |  $2,001,244,392,042 |       320,411 |            82.9 |        7.3 |
+| Japan               |   126,226,568 |         377,944 |  $5,081,769,542,380 |     1,135,886 |            84.2 |        7.4 |
+| Mexico              |   126,014,024 |       1,964,375 |  $1,258,286,717,125 |       486,406 |            75.0 |       17.6 |
+| Nigeria             |   200,963,599 |         923,768 |    $448,120,428,859 |       120,369 |            54.3 |      37.91 |
+| South Africa        |    58,558,270 |       1,219,090 |    $351,431,649,241 |       476,644 |            63.9 |      20.51 |
+| United States       |   328,239,523 |       9,833,517 | $21,427,700,000,000 |     5,006,302 |            78.5 |       11.6 |
 
 The 2023 Global Country Information table offers an expansive window into the demographic and geographic realities of our modern world, highlighting the staggering differences in human distribution. At the very top of the demographic scale, two nations stand as absolute titans: China reports a massive population of 1,397,715,000, closely followed by India with 1,366,417,754 individuals. These two Asian behemoths dwarf the demographic profile of the United States, which, despite being the third most populous nation, registers a population of 328,239,523. Conversely, the dataset reveals the existence of incredibly compact and sparsely populated nations. For instance, the Caribbean island nation of Antigua and Barbuda hosts a population of just 97,118 people. Moving across the globe, the European nation of Albania records a modest population of 2,854,191, while in Central Asia, Afghanistan holds a population of 38,041,754. These population figures are intrinsically linked to the physical spaces these nations occupy. Antigua and Barbuda, for example, is confined to a tiny land area of merely 443 square kilometers, making its small population highly concentrated. In contrast, Afghanistan stretches across a much larger land area of 652,230 square kilometers, providing a vastly different context for its millions of citizens. Understanding these demographic extremes is the first step in comprehending the immense variability that characterizes global development, as population size fundamentally dictates a country's internal policies, labor force dynamics, and international influence.
 

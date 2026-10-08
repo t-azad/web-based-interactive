@@ -1,263 +1,444 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Global Country Information Explorer</title>
 
-    <title>Global Country Information Explorer</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
 
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-
-    <header class="page-header">
-        <div>
-            <h1>2023 Global Information For Analysis and Insights</h1>
-        </div>
-    </header>
-
-    <main class="dashboard">
-
-        <!-- ===================== -->
-        <!-- Left Side: Text Content -->
-        <!-- ===================== -->
-
-        <section class="text-panel">
-
-            <div class="panel-heading">
-                <h2>Understanding Global Differences</h2>
+    <body>
+        <header class="page-header">
+            <div>
+                <h1>2023 Global Information For Analysis and Insights</h1>
             </div>
+        </header>
 
-            <article class="article-content">
+        <main class="dashboard">
+            <!-- ===================== -->
+            <!-- Left Side: Text Content -->
+            <!-- ===================== -->
 
-                <!-- Paragraph 1 -->
-                <p>
-                    The 2023 Global Country Information table offers an expansive
-                    window into the demographic and geographic realities of our
-                    modern world, highlighting the staggering differences in human
-                    distribution. At the very top of the demographic scale, two
-                    nations stand as absolute titans: China reports a massive
-                    population of 1,397,715,000, closely followed by India with
-                    1,366,417,754 individuals. These two Asian behemoths dwarf the
-                    demographic profile of the United States, which, despite being
-                    the third most populous nation, registers a population of
-                    328,239,523. Conversely, the dataset reveals the existence of
-                    incredibly compact and sparsely populated nations. For instance,
-                    the Caribbean island nation of Antigua and Barbuda hosts a
-                    population of just 97,118 people. Moving across the globe, the
-                    European nation of Albania records a modest population of
-                    2,854,191, while in Central Asia, Afghanistan holds a population
-                    of 38,041,754. These population figures are intrinsically linked
-                    to the physical spaces these nations occupy. Antigua and Barbuda,
-                    for example, is confined to a tiny land area of merely 443 square
-                    kilometers, making its small population highly concentrated. In
-                    contrast, Afghanistan stretches across a much larger land area of
-                    652,230 square kilometers, providing a vastly different context
-                    for its millions of citizens. Understanding these demographic
-                    extremes is the first step in comprehending the immense
-                    variability that characterizes global development, as population
-                    size fundamentally dictates a country's internal policies, labor
-                    force dynamics, and international influence.
-                </p>
+            <section class="text-panel">
+                <div class="panel-heading">
+                    <h2>Understanding Global Differences</h2>
+                </div>
 
-                <!-- Paragraph 2 -->
-                <p>
-                    Beyond sheer human numbers, the table shows a
-                    critical lens through which to examine global economic power,
-                    primarily through the metric of Gross Domestic Product (GDP).
-                    The United States reigns supreme in this arena, boasting a
-                    staggering GDP of $21,427,700,000,000, a figure that underscores
-                    its position as the primary engine of the global economy. China
-                    follows as the second-largest economic powerhouse, with a robust
-                    GDP of $19,910,000,000,000, reflecting its rapid industrialization
-                    and massive export market. The economic landscape shifts slightly
-                    when looking at other major global players. Japan, for instance,
-                    maintains a formidable economy with a GDP of $5,081,769,542,380,
-                    supported by its advanced technology and manufacturing sectors
-                    despite having a much smaller population of 126,226,568. In
-                    Europe, Germany stands out with a GDP of $3,845,630,030,824,
-                    serving as the unquestioned industrial heart of the European
-                    Union. Meanwhile, emerging economies are also making their
-                    presence felt. India, despite its massive population, records a
-                    GDP of $2,611,000,000,000, indicating significant room for per
-                    capita growth. In South America, Brazil leads the continent with
-                    a GDP of $1,839,758,040,766 and a sizable population of
-                    212,559,417. On the other end of the spectrum, smaller or
-                    developing nations navigate completely different economic
-                    realities. Afghanistan, heavily impacted by decades of
-                    instability, manages a GDP of just $19,101,353,833, a mere
-                    fraction of the output seen in developed nations. These stark
-                    financial contrasts highlight the unequal distribution of global
-                    wealth and the differing trajectories of national economic
-                    development across various continents.
-                </p>
+                <article class="article-content">
+                    <!-- Paragraph 1 -->
+                    <p>
+                        The 2023 Global Country Information table offers an
+                        expansive window into the demographic and geographic
+                        realities of our modern world, highlighting the
+                        staggering differences in human distribution. At the
+                        very top of the demographic scale, two nations stand as
+                        absolute titans: China reports a massive population of
+                        <span data-country="China" data-attribute="population"
+                            >1,397,715,000</span
+                        >, closely followed by India with
+                        <span data-country="India" data-attribute="population">
+                            1,366,417,754
+                        </span>
+                        individuals. These two Asian behemoths dwarf the
+                        demographic profile of the United States, which, despite
+                        being the third most populous nation, registers a
+                        population of
+                        <span
+                            data-country="United States"
+                            data-attribute="population"
+                            >328,239,523</span
+                        >. Conversely, the dataset reveals the existence of
+                        incredibly compact and sparsely populated nations. For
+                        instance, the Caribbean island nation of Antigua and
+                        Barbuda hosts a population of just
+                        <span
+                            data-country="Antigua and Barbuda"
+                            data-attribute="population"
+                            >97,118 people</span
+                        >. Moving across the globe, the European nation of
+                        Albania records a modest population of
+                        <span data-country="Albania" data-attribute="population"
+                            >2,854,191</span
+                        >, while in Central Asia, Afghanistan holds a population
+                        of
+                        <span
+                            data-country="Afghanistan"
+                            data-attribute="population"
+                            >38,041,754</span
+                        >. These population figures are intrinsically linked to
+                        the physical spaces these nations occupy. Antigua and
+                        Barbuda, for example, is confined to a tiny land area of
+                        merely
+                        <span
+                            data-country="Antigua and Barbuda"
+                            data-attribute="land-area"
+                            >443</span
+                        >
+                        square kilometers, making its small population highly
+                        concentrated. In contrast, Afghanistan stretches across
+                        a much larger land area of
+                        <span
+                            data-country="Afghanistan"
+                            data-attribute="land-area"
+                            >652,230</span
+                        >
+                        square kilometers, providing a vastly different context
+                        for its millions of citizens. Understanding these
+                        demographic extremes is the first step in comprehending
+                        the immense variability that characterizes global
+                        development, as population size fundamentally dictates a
+                        country's internal policies, labor force dynamics, and
+                        international influence.
+                    </p>
 
-                <!-- Paragraph 3 -->
-                <p>
-                    The drive for economic supremacy and industrial growth invariably
-                    leaves an environmental footprint, a reality starkly quantified
-                    by the carbon dioxide emissions data within the table.
-                    The relationship between industrial output, population size, and
-                    environmental impact is complex but visually undeniable within
-                    the data. China, functioning as the world's primary manufacturing
-                    hub, leads global emissions by a wide margin, releasing an
-                    astonishing 9,893,038 kilotons of CO2 into the atmosphere. The
-                    United States, despite having a smaller population, is the
-                    second-largest emitter, producing 5,006,302 kilotons of CO2, a
-                    reflection of its high per capita energy consumption and vast
-                    transportation infrastructure. India, rapidly expanding its
-                    industrial base to support its massive population, accounts for
-                    2,407,672 kilotons of CO2. Interestingly, highly developed
-                    nations with advanced economies show varying levels of emissions
-                    depending on their energy sources. Japan, for example, emits
-                    1,135,886 kilotons of CO2, while Germany, known for its heavy
-                    industry, releases 727,973 kilotons of CO2. In South America,
-                    Brazil's emissions stand at 462,299 kilotons, influenced heavily
-                    by agricultural practices, forestry, and land-use changes. It is
-                    crucial to recognize that the burden of climate change is often
-                    disproportionately created by these economic giants. Smaller
-                    nations contribute infinitesimally to global totals; for example,
-                    Antigua and Barbuda generates a minuscule 557 kilotons of CO2.
-                    This vast disparity in carbon output underscores the central
-                    tension in international climate negotiations, where the countries
-                    responsible for the vast majority of historical and current
-                    emissions are urged to take the lead in mitigating the global
-                    environmental crisis.
-                </p>
+                    <!-- Paragraph 2 -->
+                    <p>
+                        Beyond sheer human numbers, the table shows a critical
+                        lens through which to examine global economic power,
+                        primarily through the metric of Gross Domestic Product
+                        (GDP). The United States reigns supreme in this arena,
+                        boasting a staggering GDP of
+                        <span data-country="United States" data-attribute="gdp"
+                            >$21,427,700,000,000</span
+                        >, a figure that underscores its position as the primary
+                        engine of the global economy. China follows as the
+                        second-largest economic powerhouse, with a robust GDP of
+                        <span data-country="China" data-attribute="gdp"
+                            >$19,910,000,000,000</span
+                        >, reflecting its rapid industrialization and massive
+                        export market. The economic landscape shifts slightly
+                        when looking at other major global players. Japan, for
+                        instance, maintains a formidable economy with a GDP of
+                        <span data-country="Japan" data-attribute="gdp"
+                            >$5,081,769,542,380</span
+                        >, supported by its advanced technology and
+                        manufacturing sectors despite having a much smaller
+                        population of
+                        <span data-country="Japan" data-attribute="population"
+                            >126,226,568</span
+                        >. In Europe, Germany stands out with a GDP of
+                        <span data-country="Germany" data-attribute="gdp"
+                            >$3,845,630,030,824</span
+                        >, serving as the unquestioned industrial heart of the
+                        European Union. Meanwhile, emerging economies are also
+                        making their presence felt. India, despite its massive
+                        population, records a GDP of
+                        <span data-country="India" data-attribute="gdp"
+                            >$2,611,000,000,000</span
+                        >, indicating significant room for per capita growth. In
+                        South America, Brazil leads the continent with a GDP of
+                        <span data-country="Brazil" data-attribute="gdp"
+                            >$1,839,758,040,766</span
+                        >
+                        and a sizable population of
+                        <span data-country="Brazil" data-attribute="population"
+                            >212,559,417</span
+                        >. On the other end of the spectrum, smaller or
+                        developing nations navigate completely different
+                        economic realities. Afghanistan, heavily impacted by
+                        decades of instability, manages a GDP of just
+                        <span data-country="Afghanistan" data-attribute="gdp"
+                            >$19,101,353,833</span
+                        >, a mere fraction of the output seen in developed
+                        nations. These stark financial contrasts highlight the
+                        unequal distribution of global wealth and the differing
+                        trajectories of national economic development across
+                        various continents.
+                    </p>
 
-                <!-- Paragraph 4 -->
-                <p>
-                    Health outcomes and demographic vitality are fundamentally tied
-                    to a nation's economic stability and infrastructure, a correlation
-                    made clear by the life expectancy statistics documented in
-                    the table. Japan is globally renowned for its
-                    exceptional health outcomes, boasting a remarkable life expectancy
-                    of 84.2 years, a testament to its robust healthcare system,
-                    dietary habits, and societal support structures. Europe also
-                    demonstrates highly favorable health metrics; Italy records a life
-                    expectancy of 82.9 years, closely followed by France at 82.5 years
-                    and Germany at 80.9 years. In Oceania, Australia reports an
-                    impressive life expectancy of 82.7 years. These nations represent
-                    the pinnacle of global health achievements, effectively managing
-                    chronic diseases and infant mortality. However, the dataset paints
-                    a decidedly somber picture for many developing regions,
-                    particularly in Sub-Saharan Africa, where systemic challenges
-                    drastically reduce average lifespans. Nigeria, despite having an
-                    enormous population of 200,963,599, struggles with a life
-                    expectancy of just 54.3 years. Similarly, Angola reports a low
-                    life expectancy of 60.8 years, and South Africa sits at 63.9
-                    years. In Northern Africa, Algeria fares significantly better
-                    with a life expectancy of 76.7 years. The gap between a life
-                    expectancy of over 84 years in Japan and under 55 years in
-                    Nigeria is one of the most profound indicators of global
-                    inequality, reflecting deep disparities in access to advanced
-                    medical care, clean water, nutrition, and institutional stability.
-                </p>
+                    <!-- Paragraph 3 -->
+                    <p>
+                        The drive for economic supremacy and industrial growth
+                        invariably leaves an environmental footprint, a reality
+                        starkly quantified by the carbon dioxide emissions data
+                        within the table. The relationship between industrial
+                        output, population size, and environmental impact is
+                        complex but visually undeniable within the data. China,
+                        functioning as the world's primary manufacturing hub,
+                        leads global emissions by a wide margin, releasing an
+                        astonishing
+                        <span data-country="China" data-attribute="co2"
+                            >9,893,038</span
+                        >
+                        kilotons of CO2 into the atmosphere. The United States,
+                        despite having a smaller population, is the
+                        second-largest emitter, producing
+                        <span data-country="United States" data-attribute="co2"
+                            >5,006,302</span
+                        >
+                        kilotons of CO2, a reflection of its high per capita
+                        energy consumption and vast transportation
+                        infrastructure. India, rapidly expanding its industrial
+                        base to support its massive population, accounts for
+                        <span data-country="India" data-attribute="co2"
+                            >2,407,672</span
+                        >
+                        kilotons of CO2. Interestingly, highly developed nations
+                        with advanced economies show varying levels of emissions
+                        depending on their energy sources. Japan, for example,
+                        emits
+                        <span data-country="Japan" data-attribute="co2"
+                            >1,135,886</span
+                        >
+                        kilotons of CO2, while Germany, known for its heavy
+                        industry, releases
+                        <span data-country="Germany" data-attribute="co2"
+                            >727,973</span
+                        >
+                        kilotons of CO2. In South America, Brazil's emissions
+                        stand at
+                        <span data-country="Brazil" data-attribute="co2"
+                            >462,299</span
+                        >
+                        kilotons, influenced heavily by agricultural practices,
+                        forestry, and land-use changes. It is crucial to
+                        recognize that the burden of climate change is often
+                        disproportionately created by these economic giants.
+                        Smaller nations contribute infinitesimally to global
+                        totals; for example, Antigua and Barbuda generates a
+                        minuscule
+                        <span
+                            data-country="Antigua and Barbuda"
+                            data-attribute="co2"
+                            >557</span
+                        >
+                        kilotons of CO2. This vast disparity in carbon output
+                        underscores the central tension in international climate
+                        negotiations, where the countries responsible for the
+                        vast majority of historical and current emissions are
+                        urged to take the lead in mitigating the global
+                        environmental crisis.
+                    </p>
 
-                <!-- Paragraph 5 -->
-                <p>
-                    Alongside life expectancy, birth rates offer vital clues regarding
-                    a country's future demographic trajectory and societal structure,
-                    as meticulously detailed in the table. Developed nations
-                    are increasingly facing the dual challenges of rapidly aging
-                    populations and sharply declining birth rates. Italy is
-                    experiencing an acute demographic winter, reporting a notably low
-                    birth rate of 7.3 births per 1,000 people. Japan is in a similar
-                    predicament with a birth rate of exactly 7.4. These low
-                    replacement levels inevitably strain pension systems, shrink the
-                    available workforce, and alter family dynamics. In sharp contrast,
-                    many African nations are experiencing explosive population growth
-                    fueled by high fertility. Nigeria is characterized by an
-                    exceptionally high birth rate of 37.91, ensuring its population
-                    will continue to surge dramatically in the coming decades. Angola
-                    exceeds even that rapid pace, with a birth rate of 40.73. Other
-                    regions across the globe show more moderate, transitional
-                    demographic patterns. In the Middle East and North Africa, Egypt
-                    reports a birth rate of 26.38, supporting a rapidly growing
-                    population that demands continuous infrastructure expansion. In
-                    Latin America, Mexico maintains a birth rate of 17.6, while
-                    Argentina sits slightly lower at 17.02. These differing birth
-                    rates mean that while Europe and East Asia must innovate to
-                    support heavily aging societies, nations in Africa and parts of
-                    the Middle East face the urgent task of building enough schools,
-                    hospitals, and housing to accommodate their booming youth
-                    populations.
-                </p>
+                    <!-- Paragraph 4 -->
+                    <p>
+                        Health outcomes and demographic vitality are
+                        fundamentally tied to a nation's economic stability and
+                        infrastructure, a correlation made clear by the life
+                        expectancy statistics documented in the table. Japan is
+                        globally renowned for its exceptional health outcomes,
+                        boasting a remarkable life expectancy of
+                        <span
+                            data-country="Japan"
+                            data-attribute="life-expectancy"
+                            >84.2</span
+                        >
+                        years, a testament to its robust healthcare system,
+                        dietary habits, and societal support structures. Europe
+                        also demonstrates highly favorable health metrics; Italy
+                        records a life expectancy of
+                        <span
+                            data-country="Italy"
+                            data-attribute="life-expectancy"
+                            >82.9</span
+                        >
+                        years, closely followed by France at
+                        <span
+                            data-country="France"
+                            data-attribute="life-expectancy"
+                            >82.5</span
+                        >
+                        years and Germany at
+                        <span
+                            data-country="Germany"
+                            data-attribute="life-expectancy"
+                            >80.9</span
+                        >
+                        years. In Oceania, Australia reports an impressive life
+                        expectancy of
+                        <span
+                            data-country="Australia"
+                            data-attribute="life-expectancy"
+                            >82.7</span
+                        >
+                        years. These nations represent the pinnacle of global
+                        health achievements, effectively managing chronic
+                        diseases and infant mortality. However, the dataset
+                        paints a decidedly somber picture for many developing
+                        regions, particularly in Sub-Saharan Africa, where
+                        systemic challenges drastically reduce average
+                        lifespans. Nigeria, despite having an enormous
+                        population of
+                        <span data-country="Nigeria" data-attribute="population"
+                            >200,963,599</span
+                        >, struggles with a life expectancy of just
+                        <span
+                            data-country="Nigeria"
+                            data-attribute="life-expectancy"
+                            >54.3</span
+                        >
+                        years. Similarly, Angola reports a low life expectancy
+                        of
+                        <span
+                            data-country="Angola"
+                            data-attribute="life-expectancy"
+                            >60.8</span
+                        >
+                        years, and South Africa sits at
+                        <span
+                            data-country="South Africa"
+                            data-attribute="life-expectancy"
+                            >63.9</span
+                        >
+                        years. In Northern Africa, Algeria fares significantly
+                        better with a life expectancy of
+                        <span
+                            data-country="Algeria"
+                            data-attribute="life-expectancy"
+                            >76.7</span
+                        >
+                        years. The gap between a life expectancy of over 84
+                        years in Japan and under 55 years in Nigeria is one of
+                        the most profound indicators of global inequality,
+                        reflecting deep disparities in access to advanced
+                        medical care, clean water, nutrition, and institutional
+                        stability.
+                    </p>
 
-                <!-- Paragraph 6 -->
-                <p>
-                    The physical geography and territorial expanse of these nations
-                    further contextualize their demographic and economic data within
-                    the table. The distribution of habitable land across
-                    the globe is incredibly uneven, heavily influencing agricultural
-                    capacity, resource extraction potential, and baseline population
-                    density. Canada is the second-largest country by total area,
-                    encompassing a vast expanse of 9,984,670 square kilometers, yet
-                    its population remains relatively small due to inhospitable
-                    northern climates. The United States follows closely with a
-                    sprawling land area of 9,833,517 square kilometers, which supports
-                    highly diverse agricultural belts and massive industrial sectors.
-                    China also commands a colossal territory of 9,596,960 square
-                    kilometers, while Brazil dominates the South American continent
-                    with 8,515,770 square kilometers. In the southern hemisphere,
-                    Australia covers an immense 7,741,220 square kilometers,
-                    essentially comprising an entire continent of its own. Conversely,
-                    many nations must manage their populations and economies within
-                    much tighter geographical confines. France, a major European
-                    political and economic power, operates within a land area of
-                    643,801 square kilometers, a fraction of the size of the global
-                    geographic giants. The interplay between physical land area and
-                    human population creates drastically different living environments
-                    and urban planning requirements. The vast, open spaces of Canada
-                    and Australia contrast sharply with the dense urban environments
-                    necessitated by the limited land area of smaller, highly populated
-                    nations, ultimately shaping everything from transportation
-                    networks to conservation efforts globally.
-                </p>
+                    <!-- Paragraph 5 -->
+                    <p>
+                        Alongside life expectancy, birth rates offer vital clues
+                        regarding a country's future demographic trajectory and
+                        societal structure, as meticulously detailed in the
+                        table. Developed nations are increasingly facing the
+                        dual challenges of rapidly aging populations and sharply
+                        declining birth rates. Italy is experiencing an acute
+                        demographic winter, reporting a notably low birth rate
+                        of
+                        <span data-country="Italy" data-attribute="birth-rate"
+                            >7.3</span
+                        >
+                        births per 1,000 people. Japan is in a similar
+                        predicament with a birth rate of exactly
+                        <span data-country="Japan" data-attribute="birth-rate"
+                            >7.4</span
+                        >. These low replacement levels inevitably strain
+                        pension systems, shrink the available workforce, and
+                        alter family dynamics. In sharp contrast, many African
+                        nations are experiencing explosive population growth
+                        fueled by high fertility. Nigeria is characterized by an
+                        exceptionally high birth rate of
+                        <span data-country="Nigeria" data-attribute="birth-rate"
+                            >37.91</span
+                        >, ensuring its population will continue to surge
+                        dramatically in the coming decades. Angola exceeds even
+                        that rapid pace, with a birth rate of
+                        <span data-country="Angola" data-attribute="birth-rate"
+                            >40.73</span
+                        >. Other regions across the globe show more moderate,
+                        transitional demographic patterns. In the Middle East
+                        and North Africa, Egypt reports a birth rate of
+                        <span data-country="Egypt" data-attribute="birth-rate"
+                            >26.38</span
+                        >, supporting a rapidly growing population that demands
+                        continuous infrastructure expansion. In Latin America,
+                        Mexico maintains a birth rate of
+                        <span data-country="Mexico" data-attribute="birth-rate"
+                            >17.6</span
+                        >, while Argentina sits slightly lower at
+                        <span
+                            data-country="Argentina"
+                            data-attribute="birth-rate"
+                            >17.02</span
+                        >. These differing birth rates mean that while Europe
+                        and East Asia must innovate to support heavily aging
+                        societies, nations in Africa and parts of the Middle
+                        East face the urgent task of building enough schools,
+                        hospitals, and housing to accommodate their booming
+                        youth populations.
+                    </p>
+                    <!-- Paragraph 6 -->
+                    <p>
+                        The physical geography and territorial expanse of these
+                        nations further contextualize their demographic and
+                        economic data within the table. The distribution of
+                        habitable land across the globe is incredibly uneven,
+                        heavily influencing agricultural capacity, resource
+                        extraction potential, and baseline population density.
+                        Canada is the second-largest country by total area,
+                        encompassing a vast expanse of
+                        <span data-country="Canada" data-attribute="land-area"
+                            >9,984,670</span
+                        >
+                        square kilometers, yet its population remains relatively
+                        small due to inhospitable northern climates. The United
+                        States follows closely with a sprawling land area of
+                        <span
+                            data-country="United States"
+                            data-attribute="land-area"
+                            >9,833,517</span
+                        >
+                        square kilometers, which supports highly diverse
+                        agricultural belts and massive industrial sectors. China
+                        also commands a colossal territory of
+                        <span data-country="China" data-attribute="land-area"
+                            >9,596,960</span
+                        >
+                        square kilometers, while Brazil dominates the South
+                        American continent with
+                        <span data-country="Brazil" data-attribute="land-area"
+                            >8,515,770</span
+                        >
+                        square kilometers. In the southern hemisphere, Australia
+                        covers an immense
+                        <span
+                            data-country="Australia"
+                            data-attribute="land-area"
+                            >7,741,220</span
+                        >
+                        square kilometers, essentially comprising an entire
+                        continent of its own. Conversely, many nations must
+                        manage their populations and economies within much
+                        tighter geographical confines. France, a major European
+                        political and economic power, operates within a land
+                        area of
+                        <span data-country="France" data-attribute="land-area"
+                            >643,801</span
+                        >
+                        square kilometers, a fraction of the size of the global
+                        geographic giants. The interplay between physical land
+                        area and human population creates drastically different
+                        living environments and urban planning requirements. The
+                        vast, open spaces of Canada and Australia contrast
+                        sharply with the dense urban environments necessitated
+                        by the limited land area of smaller, highly populated
+                        nations, ultimately shaping everything from
+                        transportation networks to conservation efforts
+                        globally.
+                    </p>
+                </article>
+            </section>
 
-            </article>
+            <!-- ================= -->
+            <!-- Right Side: Table -->
+            <!-- ================= -->
 
-        </section>
+            <section class="table-panel">
+                <div class="table-container">
+                    <table id="country-table">
+                        <thead>
+                            <tr>
+                                <th>Country</th>
+                                <th>Population</th>
+                                <th>Land Area (km²)</th>
+                                <th>GDP</th>
+                                <th>CO₂ Emissions (kt)</th>
+                                <th>Life Expectancy</th>
+                                <th>Birth Rate</th>
+                            </tr>
+                        </thead>
 
-        <!-- ================= -->
-        <!-- Right Side: Table -->
-        <!-- ================= -->
+                        <tbody id="country-table-body">
+                            <!-- JavaScript inserts rows here -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
 
-        <section class="table-panel">
-
-            <div class="table-container">
-
-                <table id="country-table">
-
-                    <thead>
-                        <tr>
-                            <th>Country</th>
-                            <th>Population</th>
-                            <th>Land Area (km²)</th>
-                            <th>GDP</th>
-                            <th>CO₂ Emissions (kt)</th>
-                            <th>Life Expectancy</th>
-                            <th>Birth Rate</th>
-                        </tr>
-                    </thead>
-
-                    <tbody id="country-table-body">
-                        <!-- JavaScript inserts rows here -->
-                    </tbody>
-
-                </table>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <script src="js/countries.js"></script>
-    <script src="js/interactions.js"></script>
-
-</body>
+        <script src="js/countries.js"></script>
+        <script src="js/interactions.js"></script>
+    </body>
 </html>

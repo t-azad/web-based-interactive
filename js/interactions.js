@@ -1,13 +1,51 @@
 document.addEventListener("DOMContentLoaded", () => {
     buildCountryTable();
-});
 
+    const tableBody = document.getElementById("country-table-body");
+
+    tableBody.addEventListener("mouseover", (event) => {
+        const tableValue = event.target.closest(
+            "td[data-country][data-attribute]",
+        );
+
+        if (!tableValue) return;
+
+        const country = tableValue.dataset.country;
+        const attribute = tableValue.dataset.attribute;
+
+        const matchingText = document.querySelector(
+            `.article-content [data-country="${country}"][data-attribute="${attribute}"]`,
+        );
+
+        if (matchingText) {
+            matchingText.classList.add("highlight");
+        }
+    });
+
+    tableBody.addEventListener("mouseout", (event) => {
+        const tableValue = event.target.closest(
+            "td[data-country][data-attribute]",
+        );
+
+        if (!tableValue) return;
+
+        const country = tableValue.dataset.country;
+        const attribute = tableValue.dataset.attribute;
+
+        const matchingText = document.querySelector(
+            `.article-content [data-country="${country}"][data-attribute="${attribute}"]`,
+        );
+
+        if (matchingText) {
+            matchingText.classList.remove("highlight");
+        }
+    });
+});
 
 function buildCountryTable() {
     const tableBody = document.getElementById("country-table-body");
 
     countries.forEach((country) => {
-
         const row = document.createElement("tr");
 
         row.innerHTML = `

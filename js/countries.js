@@ -6,7 +6,7 @@ const countries = [
         gdp: "$19,101,353,833",
         co2: "8,672",
         lifeExpectancy: "64.5",
-        birthRate: "32.49"
+        birthRate: "32.49",
     },
     {
         country: "Albania",
@@ -15,7 +15,7 @@ const countries = [
         gdp: "$15,278,077,447",
         co2: "4,536",
         lifeExpectancy: "78.5",
-        birthRate: "11.78"
+        birthRate: "11.78",
     },
     {
         country: "Algeria",
@@ -24,7 +24,7 @@ const countries = [
         gdp: "$169,988,236,398",
         co2: "150,006",
         lifeExpectancy: "76.7",
-        birthRate: "24.28"
+        birthRate: "24.28",
     },
     {
         country: "Angola",
@@ -33,7 +33,7 @@ const countries = [
         gdp: "$94,635,415,870",
         co2: "34,693",
         lifeExpectancy: "60.8",
-        birthRate: "40.73"
+        birthRate: "40.73",
     },
     {
         country: "Antigua and Barbuda",
@@ -42,7 +42,7 @@ const countries = [
         gdp: "$1,727,759,259",
         co2: "557",
         lifeExpectancy: "76.9",
-        birthRate: "15.33"
+        birthRate: "15.33",
     },
     {
         country: "Argentina",
@@ -51,7 +51,7 @@ const countries = [
         gdp: "$449,663,446,954",
         co2: "201,348",
         lifeExpectancy: "76.5",
-        birthRate: "17.02"
+        birthRate: "17.02",
     },
     {
         country: "Australia",
@@ -60,7 +60,7 @@ const countries = [
         gdp: "$1,392,680,589,329",
         co2: "375,908",
         lifeExpectancy: "82.7",
-        birthRate: "12.6"
+        birthRate: "12.6",
     },
     {
         country: "Brazil",
@@ -69,7 +69,7 @@ const countries = [
         gdp: "$1,839,758,040,766",
         co2: "462,299",
         lifeExpectancy: "75.7",
-        birthRate: "13.92"
+        birthRate: "13.92",
     },
     {
         country: "Canada",
@@ -78,7 +78,7 @@ const countries = [
         gdp: "$1,736,425,629,520",
         co2: "544,894",
         lifeExpectancy: "81.9",
-        birthRate: "10.1"
+        birthRate: "10.1",
     },
     {
         country: "China",
@@ -87,7 +87,7 @@ const countries = [
         gdp: "$19,910,000,000,000",
         co2: "9,893,038",
         lifeExpectancy: "77.0",
-        birthRate: "10.9"
+        birthRate: "10.9",
     },
     {
         country: "Egypt",
@@ -96,7 +96,7 @@ const countries = [
         gdp: "$303,175,127,598",
         co2: "238,560",
         lifeExpectancy: "71.8",
-        birthRate: "26.38"
+        birthRate: "26.38",
     },
     {
         country: "France",
@@ -105,7 +105,7 @@ const countries = [
         gdp: "$2,715,518,274,227",
         co2: "303,276",
         lifeExpectancy: "82.5",
-        birthRate: "11.3"
+        birthRate: "11.3",
     },
     {
         country: "Germany",
@@ -114,7 +114,7 @@ const countries = [
         gdp: "$3,845,630,030,824",
         co2: "727,973",
         lifeExpectancy: "80.9",
-        birthRate: "9.5"
+        birthRate: "9.5",
     },
     {
         country: "India",
@@ -123,7 +123,7 @@ const countries = [
         gdp: "$2,611,000,000,000",
         co2: "2,407,672",
         lifeExpectancy: "69.4",
-        birthRate: "17.86"
+        birthRate: "17.86",
     },
     {
         country: "Italy",
@@ -132,7 +132,7 @@ const countries = [
         gdp: "$2,001,244,392,042",
         co2: "320,411",
         lifeExpectancy: "82.9",
-        birthRate: "7.3"
+        birthRate: "7.3",
     },
     {
         country: "Japan",
@@ -141,7 +141,7 @@ const countries = [
         gdp: "$5,081,769,542,380",
         co2: "1,135,886",
         lifeExpectancy: "84.2",
-        birthRate: "7.4"
+        birthRate: "7.4",
     },
     {
         country: "Mexico",
@@ -150,7 +150,7 @@ const countries = [
         gdp: "$1,258,286,717,125",
         co2: "486,406",
         lifeExpectancy: "75.0",
-        birthRate: "17.6"
+        birthRate: "17.6",
     },
     {
         country: "Nigeria",
@@ -159,7 +159,7 @@ const countries = [
         gdp: "$448,120,428,859",
         co2: "120,369",
         lifeExpectancy: "54.3",
-        birthRate: "37.91"
+        birthRate: "37.91",
     },
     {
         country: "South Africa",
@@ -168,7 +168,7 @@ const countries = [
         gdp: "$351,431,649,241",
         co2: "476,644",
         lifeExpectancy: "63.9",
-        birthRate: "20.51"
+        birthRate: "20.51",
     },
     {
         country: "United States",
@@ -177,6 +177,6 @@ const countries = [
         gdp: "$21,427,700,000,000",
         co2: "5,006,302",
         lifeExpectancy: "78.5",
-        birthRate: "11.6"
-    }
+        birthRate: "11.6",
+    },
 ];

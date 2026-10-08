@@ -8,11 +8,9 @@
     padding: 0;
 }
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* ================================
    Page header
@@ -36,7 +34,6 @@ body {
     margin-bottom: 6px;
 }
 
-
 /* ================================
    Main two-panel layout
 ================================ */
@@ -49,7 +46,6 @@ body {
 
     height: calc(100vh - 155px);
 }
-
 
 /* ================================
    Panels
@@ -70,7 +66,6 @@ body {
     padding: 28px 24px;
 }
 
-
 /* ================================
    Panel heading
 ================================ */
@@ -84,7 +79,6 @@ body {
     color: #1d2d3d;
 }
 
-
 /* ================================
    Article
 ================================ */
@@ -97,7 +91,6 @@ body {
 
     color: #293845;
 }
-
 
 /* ================================
    Table container
@@ -113,7 +106,6 @@ body {
 
     background: white;
 }
-
 
 /* ================================
    Table
@@ -148,7 +140,6 @@ th {
     font-weight: 700;
 }
 
-
 /* First column: country */
 
 th:first-child,
@@ -166,7 +157,6 @@ td:first-child {
     font-weight: 600;
 }
 
-
 /* Row feedback */
 
 tbody tr:hover td {
@@ -177,3 +167,8 @@ tbody tr:hover td:first-child {
     background: #eaf2f7;
 }
 
+/* Highlight for text selected in table */
+
+.highlight {
+    background-color: yellow;
+}
