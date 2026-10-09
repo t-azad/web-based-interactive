@@ -42,6 +42,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+// Mark table cells that have a matching number in the article,
+    // so readers can tell which cells will highlight something
+    tableBody
+        .querySelectorAll("td[data-country][data-attribute]")
+        .forEach((cell) => {
+            const { country, attribute } = cell.dataset;
+
+            const match = document.querySelector(
+                `.article-content [data-country="${country}"][data-attribute="${attribute}"]`,
+            );
+
+            if (match) {
+                cell.classList.add("has-match");
+            }
+        });
+
+    // Reverse direction: hovering a number in the article
+    // highlights its cell in the table
+    const article = document.querySelector(".article-content");
+
 function buildCountryTable() {
     const tableBody = document.getElementById("country-table-body");
 
