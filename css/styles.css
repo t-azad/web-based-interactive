@@ -172,3 +172,26 @@ tbody tr:hover td:first-child {
 .highlight {
     background-color: yellow;
 }
+
+
+/* Table cells that have a matching number in the article */
+
+td.has-match {
+    color: #1f5f8b;
+    text-decoration: underline dotted;
+    cursor: pointer;
+}
+
+td.has-match:hover {
+    background: yellow;
+}
+
+/* Numbers in the article that link to a table cell */
+
+.article-content [data-country][data-attribute] {
+    cursor: pointer;
+}
+
+.article-content [data-country][data-attribute]:hover {
+    background-color: yellow;
+}
